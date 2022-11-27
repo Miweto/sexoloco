@@ -31,6 +31,9 @@ body {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  background-color: #d4d4d4;
+  border-radius: 5px;
+  background-
 }
 .sidebar {
   background-color: #32a4e7;
@@ -38,6 +41,7 @@ body {
   margin: 10px;
   width: 400px;
   letter-spacing: 1px;
+  padding-bottom: 200px;
 }
 .button {
   width: 200px;
@@ -69,4 +73,16 @@ body {
   line-height: 14px;
   text-align: center;
   margin: 5px;
+  background-size: 100px;
+}
+.picture {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  transition: all cubic-bezier(0.6, 0.04, 0.98, 0.335) 2s;
+  border-image: 10px;
+}
+.picture img {
+  width: 850px;
+  transition: all cubic-bezier(0.6, 0.04, 0.98, 0.335) 2s;
 }
