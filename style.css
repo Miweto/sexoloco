@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 1090vh;
+}
+.header {
+  background-color: mediumseagreen;
+  color: white;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-image: url("./Image/image.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: all cubic-bezier(0.03, -0.48, 0.25, 1.46) 2s;
+}
+.header:hover {
+  background-image: url("./Image/Que\ porra\ e\ essa\ 2.jpg");
+}
+.header span {
+  margin-top: -5px;
+}
+.grade {
+  /* display: grid;
+  grid-template-columns: 1fr 10fr 3fr;
+   */
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.sidebar {
+  background-color: #32a4e7;
+  color: white;
+  margin: 10px;
+  width: 400px;
+  letter-spacing: 1px;
+}
+.button {
+  width: 200px;
+}
+.button ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.button ul li {
+  background-color: rgb(214, 230, 214);
+  padding: 8px 12px;
+  margin: 2px;
+  border-radius: 14px;
+  width: 100%;
+}
+.content {
+  width: 100%;
+}
+
+.bottom {
+  background-color: #f1f1f1;
+  border: 1px;
+  border-width: 100%;
+  border-color: #d4d4d4;
+  border-radius: 4px;
+  padding: 15px;
+  line-height: 14px;
+  text-align: center;
+  margin: 5px;
+}
