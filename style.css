@@ -78,10 +78,4 @@ body {
   display: flex;
   justify-content: center;
   align-self: center;
-  transition: all cubic-bezier(0.6, 0.04, 0.98, 0.335) 2s;
-  border-image: 10px;
-}
-.picture img {
-  width: 850px;
-  transition: all cubic-bezier(0.6, 0.04, 0.98, 0.335) 2s;
 }
